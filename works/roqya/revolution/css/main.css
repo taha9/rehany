@@ -1,0 +1,284 @@
+nav.navbar.bootsnav ul.nav > li:hover > a,
+nav.navbar.bootsnav ul.nav > li:focus > a{
+    color: #BF0731
+}
+
+.tp-caption{
+    z-index: 16;
+    font-size: 22px;
+    line-height: 5em;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    border-width: 0px;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: center;
+    margin-bottom: 30px !important;
+    padding: 0px;
+    letter-spacing: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+    white-space: wrap;
+}
+
+nav.navbar.bootsnav.navbar-transparent.white, nav.navbar.bootsnav.navbar-transparent.dark {
+    background-color: #bf0731;
+    height: 80px;
+    box-shadow: none;
+}
+
+p a{
+        font-weight: 900 !important;
+    font-size: 21px !important;
+}
+.rev-btn:hover {
+    background-color: #fdc1c1!important;
+    color: #FFF
+}
+h5.head {
+    line-height: 2.2em;
+    font-size: 14px;
+    font-weight: bold
+}
+.logo {
+    margin: auto
+}
+.col-inner.spacer{
+    padding: 20px;
+    background-color: #FFF;
+    margin-bottom: 30px;
+    height: 250px;
+    box-shadow: 3px 3px  30px #CCC
+}
+.col-inner.spacer img {
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    border: .5px solid #BF0731;
+    padding: 10px;
+    transition: all .8s ease-in-out;
+    box-shadow: 3px 3px  50px #BF0731 inset
+}
+.col-inner.spacer:hover img {
+    transform: rotateY(360deg)
+}
+.header {
+    text-align: center
+}
+.header h4{
+    font-size: 30px
+}
+.header p.line{
+    height: 1px;
+    width: 70px;
+    display: inline-block;
+    background-color: #BF0731;
+    
+}
+.header i {
+    margin: 10px 5px 60px 5px;
+    color: #BF0731
+}
+
+section.about-us figure .img-responsive {
+    width: 70%;
+    padding: 4px;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    box-shadow: 3px 3px  10px #CCC 
+    
+}
+@media (max-width:992px) {
+    section.about-us figure .img-responsive {
+    width: 100%
+}
+}
+section.about-us {
+    background-color: #FFF
+}
+section.about-us .about p{
+    color: #666;
+    line-height: 2em;
+}
+section.about-us .about p i {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    color: #BF0731;
+    border: 2px solid #BF0731;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 5px;
+    font-size: 18px;
+    border-radius: 50%
+}
+section.cases h3:not(.roqya) {
+    background-color: rgba(191, 7, 49, .9);
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 3px 3px  10px #CCC 
+}    
+section.cases p:not(.line) {
+    background-color: transparent;
+    height: 220px;
+    padding: 20px;
+    color: #666;
+    border: 4px solid #BF0731;
+    line-height: 2.3em;
+    font-size: 13px;
+    text-align: justify;
+    direction: rtl;
+}
+
+section.request {
+    background: url(../../assets/images/2.jpg) center center fixed;
+    background-size: cover;
+    position: relative;
+    padding: 0
+}
+section.request .over-lay {
+    background-color: rgba(191, 7, 49, .8);
+    min-height: 100%;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+section.request .over-lay h5 {
+    color: #FFF;
+    font-size: 24px;
+    margin-bottom: 40px
+}
+section.request .over-lay p {
+    color: #F0F0F0;
+    font-size: 23px;
+    margin-bottom: 40px
+}
+section.request .over-lay a {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 60px
+}
+section.contact {
+    padding-top: 70px;
+}
+section.contact .form-contact,section.contact .form-info{
+    margin-top: 30px
+}
+section.contact .form-group input[type="text"],
+section.contact .form-group input[type="email"],
+section.contact .form-group input[type="url"],
+section.contact .form-group input[type="password"],
+section.contact .form-group select,
+section.contact .form-group textarea{
+	position:relative;
+	display:block;
+	width:100%;
+	line-height:24px;
+	padding:9px 15px;
+	border:1px solid #d5d5d5;
+	font-size:14px;
+	color:#252525;
+    background-color: #fff;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-moz-border-radius:3px;	
+}
+
+section.contact .form-group input[type="text"]:focus,
+section.contact .form-group input[type="email"]:focus,
+section.contact .form-group input[type="url"]:focus,
+section.contact .form-group input[type="password"]:focus,
+section.contact .form-group select:focus,
+section.contact .form-group textarea:focus{
+	border-color:#BF0731;	
+}
+
+section.contact .form-group input[type="text"].error,
+section.contact .form-group input[type="email"].error,
+section.contact .form-group input[type="url"].error,
+section.contact .form-group input[type="password"].error,
+section.contact .form-group select.error,
+section.contact .form-group textarea.error{
+	border-color:#000 !important;	
+}
+
+section.contact .form-group label.error{
+	display:none !important;	
+}
+
+section.contact .form-group textarea{
+	height:120px;
+	resize:none;
+}
+
+section.contact button{
+	width:100%;
+	padding:12px 50px;	
+    background-color: #BF0731;
+    color: #FFF;
+    border: 1px solid #BF0731
+}
+section.contact button:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #BF0731
+}
+
+
+section.contact ul li {
+    list-style: none;
+    margin-bottom: 40px
+}
+
+
+section.contact ul li i {
+    font-size: 25px;
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: #BF0731;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #BF0731;
+    text-align: center;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+section.contact ul li h4 {
+    text-align: right;
+    cursor: pointer;
+    margin: 0 0 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+section.contact ul li:hover h4 {
+    transform: translateX(-10px);
+    color: #D73E4D
+}
+section.contact ul li p {
+    text-align: right;
+    color: #555;
+    cursor: pointer;
+    
+}
+#contact-form .form-group {
+    margin-bottom: 0
+}
+footer .compony {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px
+}
